@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-	int main(void)
+int main(void)
 {
 	int num;
 
@@ -13,11 +13,11 @@
 	{
 		putchar(num);
 	if (num != 57)
-
+	{
 	putchar(',');
 	putchar(' ');
 	}
 	putchar('\n');
-
+	}
 	return (0);
 }
