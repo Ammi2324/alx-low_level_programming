@@ -13,8 +13,9 @@
 	{
 		putchar(num);
 	if (num != 57)
-		putchar(',');
-		putchar(' ');
+
+	putchar(',');
+	putchar(' ');
 	}
 		return (0);
 }
