@@ -10,9 +10,8 @@ int main(void)
 	char alr;
 
 	for (alr = 'z'; alr <= 'a'; alr--)
-		putchar(alr);
+	putchar(alr);
+ 	putchar('\n');
 
-		putchar('\n');
-
-		return (0);
+	return (0);
 }
