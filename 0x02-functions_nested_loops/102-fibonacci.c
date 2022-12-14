@@ -20,3 +20,4 @@ int main(void)
 		n1 = n2;
 		n2 = fn;
 	}
+}
