@@ -20,7 +20,7 @@ void times_table(void)
 			if (z <= 9)
 			{
 				_putchar(32);
-				_putchar(z = 48);
+				_putchar(z + 48);
 			}
 			else
 			{
